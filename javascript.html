@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página con Javascript</title>
+
+
+
+    <script>
+function saluda(nombre, apellido) {
+        alert("Hola " + nombre +  apellido);
+        alert("Bien.");
+        asignatura = "programacion";
+        edad=17;
+        estudiante= true;
+        alert("Estudio "  + asignatura    );
+        edad= 65 - edad ;
+        
+
+    }
+        </script>
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+<h2>Pruebas Javascript</h2>
+
+
+<BUtton type="button" onclick="saluda('Aaron ',' Messi')" >saludame</BUtton>
+
+<button type="button" onclick="document.getElementById('manolo').style.fontSize='35px'    " > Hazlo grande  </button>
+<button type="button" onclick="document.getElementById('manolo').style.fontSize='10px'    " > Hazlo pequeño  </button>
+
+
+
+
+<p id="manolo">Pulsa el siguiente boton</p>
+
+<button type="button" onclick="alert('Hola que tal')">Click </button>
+
+
+<button type="button" onclick="document.getElementById('manolo').innerHTML = 'Soy Mamolo' "> Click </button>
+
+
+<button type="button" onclick="document.getElementById('foto').src='img/mannnn2.jpg'">Muestra a Manolo</button>
+<img id="foto" src="img/awewaewae.jfif" alt="">
+
+    
+
+<button type="button" onclick="document.getElementById('foto').src='img/awewaewae.jfif'">Muestra al amigo de manolo</button>
+
+
+</body>
+
+
+
+</html>
